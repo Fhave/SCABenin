@@ -1,0 +1,28 @@
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+       body {
+            font-family: 'Montserrat', sans-serif
+            font-size: 20px;
+        }
+
+        div:nth-child(odd) {
+            background: #2f347e;
+            color: #000;
+        }
+
+        div:nth-child(even) {
+            background: #656fc5;
+            color: #000;
+        }
+
+        table {
+            height: 50px;
+            margin-top: 8px;
+        }
+
+        table th:nth-child(1) {
+            width: 10%;
+        }
+
+        table th:nth-child(2) {
+            width: 20%;
+        }
